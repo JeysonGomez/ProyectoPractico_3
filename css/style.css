@@ -1,0 +1,856 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Top {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  left: calc(50% - 100% / 2);
+  top: 0px;
+  background-color: #222222;
+}
+
+.Ofertas {
+  position: absolute;
+  width: 168px;
+  height: 12px;
+  left: calc(50% - 450px / 2 - 353px);
+  top: 4px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #f3f3f3;
+}
+
+#ESP {
+  position: absolute;
+  width: 46px;
+  height: 12px;
+  left: 850px;
+  top: 4px;
+}
+
+.ESP {
+  position: absolute;
+  width: 36px;
+  height: 12px;
+  left: calc(50% - 36px / 2 + 388px);
+  top: 4px;
+  color: #f3f3f3; 
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+#COL {
+  position: absolute;
+  width: 46px;
+  height: 12px;
+  left: 840px;
+  top: 4px;
+}
+
+.COL {
+  position: absolute;
+  width: 26px;
+  height: 12px;
+  left: calc(50% - 26px / 2 + 439px);
+  top: 4px; 
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #f3f3f3;
+}
+
+#Header {
+  position: absolute;
+  width: 100%;
+  height: 62px;
+  left: 0px;
+  top: 20px;
+  background-color: #f0a83e;
+}
+
+.Logo {
+  position: absolute;
+  width: 166.38px;
+  height: 23px;
+  left: 40px;
+  top: 20px;
+}
+
+#Menu {
+  position: absolute;
+  width: 343px;
+  height: 15px;
+  left: 990px;
+  top: 43px;
+}
+
+a.Contacto:hover {
+  color:black;
+}
+
+.Contacto {
+  position: absolute;
+  width: 90px;
+  height: 14px;
+  left: 250px;
+  top: -21px;  
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.Uno {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  left: calc(50% - 15px / 2 + 70px);
+  top: -21px;
+}
+a.Nosotros:hover {
+  color:black;
+}
+
+.Nosotros {
+  position: absolute;
+  width: 70px;
+  height: 15px;
+  left: 160px;
+  top: -21px; 
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.Dos {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  left: calc(50% - 15px / 2 + -20px);
+  top: -21px;
+}
+a.Pets:hover {
+  color:black;
+}
+
+.Pets {
+  position: absolute;
+  width: 43px;
+  height: 14px;
+  left: 100px;
+  top: -21px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.Tres {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  left: calc(50% - 15px / 2 + -80px);
+  top: -21px;
+}
+a.Categorias:hover {
+  color:black;
+}
+.Categorias {
+  position: absolute;
+  width: 80px;
+  height: 14px;
+  left: 0px;
+  top: -21px; 
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.Cuatro {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  left: calc(50% - 15px / 2 + -180px);
+  top: -21px;
+}
+
+#Centro {
+  position: absolute;
+  width: 100%;
+  height: 951px;
+  left: 0px;
+  top: 81px;
+}
+
+.ImgCentro {
+  position: absolute;
+  width: 100%;
+  }
+
+.Pet {
+  position: absolute;
+  width: 100%;
+  height: 409px;
+  left: calc(50% - 100% / 2 + 0px);
+}
+
+.Mensaje {
+  position: absolute;
+  width: 340px;
+  height: 85px;
+  left: 900px;
+  top: 100px;
+}
+
+p.Texto1 {
+  width: 400px;
+  height: 35px;  
+  top: 246px;  
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #3c2313;
+}
+
+p.Comederos {
+  position: absolute;
+  width: 300px;
+  height: 19px;
+  left: 50px;
+  top: 80px;  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3c2313;
+}
+
+.Boton1 {
+  position: absolute;
+  width: 141px;
+  height: 49px;
+  left: 1025px;
+  top: 230px;
+  background: #f0a83e;
+  border-radius: 5px;
+}
+
+p.Comedero {
+  position: absolute;
+  width: 95px;
+  height: 19px;
+  left: 20px;
+  top: 15px;  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#Productos {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  left: 0px;
+  top: 409px;
+  background-color: #ffffff;
+}
+
+#ImgProducto {
+  position: absolute;
+  width: 67px;
+  height: 0px;
+  left: calc(50% - 67px / 2 + 0px);
+  top: 20px;
+}
+
+h1 {
+  position: absolute;
+  width: 500px;
+  height: 47px;
+  left: 440px;
+  top: 100px;
+  text-align: center; 
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #3c2313;
+}
+
+#Links {
+  position: relative;
+  width: 267px;
+  height: 18px;
+  left: 545px;
+  top: 180px;
+}
+
+.CR {
+  position: absolute;
+  width: 78px;
+  height: 18px;
+  left: 0px;  
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.Guion1 {
+  position: absolute;
+  width: 5px;
+  height: 18px;
+  left: 90px; 
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.AC {
+  position: absolute;
+  width: 75px;
+  height: 18px;
+  left: 100px; 
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.Guion2 {
+  position: absolute;
+  width: 5px;
+  height: 18px;
+  left: 185px;  
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.CD {
+  position: absolute;
+  width: 52px;
+  height: 18px;
+  left: 200px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+}
+
+#Cards {
+  position: absolute;
+  width: 834px;
+  height: 0px;
+  left: 0px;
+  top: 780px;
+}
+
+#Churrasco {
+  position: absolute;  
+  width: 265px;
+  height: 0px;
+  left: 250px;
+  top: 0px;
+}
+
+.ImgChurrasco {
+  position: absolute;
+  width: 265px;
+  height: 268.86px;
+  left: -100px;
+  top: -520px;
+}
+
+.JugueteC {
+  position: absolute;
+  width: 200px;
+  height: 19.64px;
+  left: -70px;
+  top: -320px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3c2313;
+}
+
+.Precio1 {
+  position: absolute;
+  width: 38.49px;
+  height: 19.64px;
+  top: -290px;  
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #f0a83e;
+}
+
+#Comedero {
+  position: absolute;
+  width: 264px;
+  height: 0px;
+  left: 265px;
+  top: 0px;
+}
+
+.ImgComedero {
+  position: absolute;
+  width: 262.03px;
+  height: 266.86px;
+  left: 290px;
+  top: -520px;
+}
+
+.JugueteCo {
+  position: absolute;
+  width: 200px;
+  height: 19.64px;
+  left: 340px;
+  top: -320px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3c2313;
+}
+
+.Precio2 {
+  position: absolute;
+  width: 39.15px;
+  height: 19.64px;
+  left: 390px;
+  top: -290px;  
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #f0a83e;
+}
+
+#JugueteHH {
+  position: absolute;
+  width: 265px;
+  height: 0px;
+  left: 300px;
+  top:0px;
+}
+
+.ImgHuesito {
+  position: absolute;
+  width: 265px;
+  height: 268.86px;
+  left: 660px;
+  top: -520px;
+}
+
+.JugueteH {
+  position: absolute;
+  width: 125px;
+  height: 18.97px;
+  left: 730px;
+  top: -320px; 
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3c2313;
+}
+
+.Precio3 {
+  position: absolute;
+  width: 39.15px;
+  height: 19.64px;
+  left: 770px;
+  top: -290px;
+  
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #f0a83e;
+}
+
+#Formulario {
+  position: absolute;
+  left: 800px;
+  top: 500px;
+}
+
+p.Contac {
+  position: absolute;
+  width: 139px;
+  height: 29px;
+  left: calc(50% - 420px / 2 + 0px);
+  top: calc(50% - -15px / 2 + 450px); 
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #3c2313;
+}
+
+#NombreyApellido {
+  position: absolute;
+  width: 340px;
+  height: 40px;
+  left: calc(50% - 610px / 2 + 1px);
+  top: calc(50% - -15px / 2 + 500px);
+  background: #3c2313;
+  border-radius: 15px;
+  background-color: #3c2313;
+}
+
+p.Nombre {
+  position: absolute;
+  width: 94.94px;
+  height: 11px;
+  left: calc(50% - 94.94px / 2 - 107.42px);
+  top: calc(50% - 11px / 2 + 0px); 
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  color: #ffffff;
+}
+
+#CorreoE {
+  position: absolute;
+  width: 340px;
+  height: 40px;
+  left: calc(50% - 610px / 2 + 1px);
+  top: calc(50% - -15px / 2 + 550px);
+  background: #3c2313;
+  border-radius: 15px;
+}
+
+p.Correo {
+  position: absolute;
+  width: 147.55px;
+  height: 11px;
+  left: calc(50% - 147.55px / 2 - 81.11px);
+  top: calc(50% - 11px / 2 + 0px);
+  
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  color: #ffffff;
+}
+
+#Telefono {
+  position: absolute;
+  width: 340px;
+  height: 40px;
+  left: calc(50% - 610px / 2 + 1px);
+  top: calc(50% - -15px / 2 + 600px);
+  background: #3c2313;
+  border-radius: 15px;
+}
+
+p.Tel {
+  position: absolute;
+  width: 147.55px;
+  height: 11px;
+  left: calc(50% - 147.55px / 2 - 81.11px);
+  top: calc(50% - 11px / 2 + 0px);
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  color: #ffffff;
+}
+
+a.Boton2 {
+  position: absolute;
+  width: 110px;
+  height: 34px;
+  left: calc(50% - 400px / 2 - 52px);
+  top: calc(50% - -15px / 2 + 650px);
+  background: #8a8787;
+  border-radius: 15px;
+}
+
+p.Reset {
+  position: absolute;
+  width: 63px;
+  height: 19px;
+  left: calc(50% - 75px / 2 - 0px);
+  top: calc(50% - 19px / 2 + 0px);  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+a.Boton3 {
+  position: absolute;
+  width: 110px;
+  height: 34px;
+  left: calc(50% - 380px / 2 + 64px);
+  top: calc(50% - -15px / 2 + 650px);
+  background: #f0a83e;
+  border-radius: 15px;
+}
+
+p.Enviar {
+  position: absolute;
+  width: 44px;
+  height: 19px;
+  left: calc(50% - 50px / 2 + 0px);
+  top: calc(50% - 19px / 2 + 0px); 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+#Suscribcion {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left:0px;
+  top: 1197px;
+  background: #222222;
+  
+}
+
+.EnviarCorreo {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px / 2 - 600px);
+  top: calc(50% - 45px / 2 + 0px);
+}
+
+h2 {
+  position: absolute;
+  width: 400px;
+  height: 23px;
+  left: calc(50% - 288px / 2 - 420px);
+  top: calc(50% - 30px / 2 + 0px); 
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.Ingresar {
+  position: absolute;
+  width: 271px;
+  height: 40px;
+  left: calc(50% - 271px / 2 + 360px);
+  top: calc(50% - 40px / 2 + 0px);
+  border-color: black;
+  border-radius: 20px;
+}
+
+.Boton4 {
+  position: absolute;
+  width: 100px;
+  height: 34px;
+  left: calc(50% - 70px / 2 + 550px);
+  top: calc(50% - 35px / 2 + 0px);
+  background: #3c2313;
+  border-radius: 15px;
+}
+
+.Suscribirme {
+  position: absolute;
+  width: 49px;
+  height: 11px;
+  left: calc(50% - 70px / 2 + 0px);
+  top: calc(50% - 11px / 2 + 0px); 
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 10px;
+  color: #ffffff;
+}
+
+#Final {
+  position: absolute;
+  width: 100%;
+  height: 301px;
+  left: 0px;
+  top: 1337px;
+  left: calc(50% - 100% / 2);
+  bottom: 17px;
+  background: #3c2313;
+}
+
+#Local {
+  position: absolute;
+  width: 179px;
+  height: 66px;
+  left: 70px;
+  top: 20px;
+}
+
+.Location {
+  position: absolute;
+  width: 88px;
+  height: 23px;
+  left: calc(50% - 88px / 2 - -40px);
+  top: 0%;
+ 
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.Direccion {
+  position: absolute;
+  width: 73px;
+  height: 12px;
+  left: calc(50% - 73px / 2 - -35px);
+  bottom: 25px;
+  
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8a8787;
+}
+
+#Telefono2 {
+  position: absolute;
+  width: 181px;
+  height: 66px;
+  left: 0px;
+  top: 110px;
+}
+
+.Icono2 {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  left: 70px;
+  top: 0px;
+}
+
+h2.Tel2 {
+  position: absolute;
+  width: 80px;
+  height: 23px;
+  left: calc(50% - 80px / 2 - -100px);
+  top: 0px;
+  
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.Tele {
+  position: absolute;
+  width: 90px;
+  height: 12px;
+  left: calc(50% - 90px / 2 - -105px);
+  bottom: 20px; 
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8a8787;
+}
+
+#Correo {
+  position: absolute;
+  width: 259px;
+  height: 66px;
+  left: 5px;
+  top: 200px;
+}
+
+.Icono3 {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  left: 70px;
+}
+
+.CorreoE {
+  position: absolute;
+  width: 300px;
+  height: 23px;
+  left: calc(50% - 168px / 2 - -100px);
+  top: 0px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.CorreoEl {
+  position: absolute;
+  width: 88px;
+  height: 12px;
+  left: calc(50% - 88px / 2 - -65px);
+  bottom: 20px;  
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8a8787;
+}
+
+.Logo2 {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: 900px;
+  top: 80px;
+}
+
+#Derechos {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  left: calc(50% - 100% / 2);
+  bottom: -1050px;
+  background: #222222;
+}
+
+.Reservados {
+  position: absolute;
+  width: 186px;
+  height: 12px;
+  left: calc(50% - 186px / 2);
+  bottom: 4px; 
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+}
+
+#RedesSociales{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  top: 100px;  
+  left: 900px;
+  }
+
+img.Red1 {  
+  max-width: 50%;
+  max-height: 40%; 
+}
+img.Red2 { 
+  max-width: 50%;
+  max-height: 40%;  
+}
+img.Red3 { 
+  max-width: 50%;
+  max-height: 40%;  
+}
+img.Red4 { 
+  max-width: 50%;
+  max-height: 40%; 
+}
